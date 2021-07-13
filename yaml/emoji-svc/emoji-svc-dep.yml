@@ -21,8 +21,8 @@ spec:
         app: emoji-svc
         version: v11
       annotations:
-        linkerd.io/inject: "enabled"
-        config.linkerd.io/skip-outbound-ports: "8081,8022,6000-7999"  
+        #linkerd.io/inject: "enabled"
+        #config.linkerd.io/skip-outbound-ports: "8081,8022,6000-7999"  
     spec:
       serviceAccountName: emoji
       containers:
